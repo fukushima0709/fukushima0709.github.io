@@ -1,51 +1,113 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Keita Fukushima — Natural Language Processing, AI, and software development." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="福島 啓太 (Keita Fukushima) - 愛媛大学 自然言語処理研究室">
   <title>Keita Fukushima</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top">KF<span>.</span></a>
-    <nav>
-      <a href="#about">About</a><a href="#interests">Interests</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
-    </nav>
-  </header>
-  <main id="top">
-    <section class="hero section">
-      <p class="eyebrow">HELLO, I'M</p>
-      <h1>Keita<br><span>Fukushima.</span></h1>
-      <p class="hero-copy">I explore language, intelligence, and software — with a focus on Natural Language Processing and AI.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="#projects">View projects</a>
-        <a class="button ghost" href="https://github.com/fukushima0709" target="_blank" rel="noreferrer">GitHub ↗</a>
-      </div>
+  <main class="container">
+    <header class="hero">
+      <h1>福島 啓太 <span>Keita Fukushima</span></h1>
+      <p class="affiliation">
+        愛媛大学大学院 理工学研究科 理工学専攻 数理情報プログラム<br>
+        <a href="https://sites.google.com/view/ehime-nlp/" target="_blank" rel="noreferrer">自然言語処理研究室</a> M1
+      </p>
+      <p class="links">
+        <a href="mailto:fukushima@ai.cs.ehime-u.ac.jp">fukushima@ai.cs.ehime-u.ac.jp</a>
+        <span>·</span>
+        <a href="https://github.com/fukushima0709" target="_blank" rel="noreferrer">GitHub</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>研究業績</h2>
+
+      <h3>国際会議</h3>
+      <ol class="publications">
+        <li>
+          Kanade Nonomura, <strong>Keita Fukushima</strong>, Risa Kondo, Tomoyuki Kajiwara.<br>
+          <span class="title">Disentangling Meaning and Language Components in Diverse Multilingual Sentence Embeddings.</span><br>
+          In Proceedings of the ACL 2026 Student Research Workshop (ACL 2026 SRW), pp.xxx-xxx, San Diego, California, United States, July 2026. <em>(to appear)</em>
+        </li>
+        <li>
+          Kanade Nonomura, <strong>Keita Fukushima</strong>, Risa Kondo, Tomoyuki Kajiwara.<br>
+          <span class="title">Mitigating Language Bias in Multilingual Sentence Embeddings for Cross-Lingual Similarity Estimation.</span><br>
+          In Proceedings of the 15th Joint Conference on Lexical and Computational Semantics (*SEM2026), pp.xxx-xxx, San Diego, California, United States, July 2026. <em>(to appear)</em>
+        </li>
+        <li>
+          <strong>Keita Fukushima</strong>, Tomoyuki Kajiwara, Takashi Ninomiya.<br>
+          <span class="title">Reversible Disentanglement of Meaning and Language Representations from Multilingual Sentence Encoders.</span><br>
+          Proceedings of the 5th Workshop on Multilingual Representation Learning (MRL 2025), November 2025.
+        </li>
+      </ol>
+
+      <h3>国内会議</h3>
+      <ol class="publications">
+        <li>
+          野々村 奏, <strong>福島 啓太</strong>, 近藤 里咲, 梶原 智之.<br>
+          <span class="title">多様な多言語文埋め込みに対する意味要素と言語要素の分離.</span><br>
+          人工知能学会第40回全国大会 (JSAI2026), 4Yin-B-54, June 2026. <em>(to appear)</em>
+        </li>
+        <li>
+          野々村 奏, <strong>福島 啓太</strong>, 近藤 里咲, 梶原 智之.<br>
+          <span class="title">多言語文埋め込みの意味と言語の分離のための損失関数の分析.</span><br>
+          言語処理学会第32回年次大会, pp.3842-3846, March 2026.
+          <a href="https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/P8-20.pdf" target="_blank" rel="noreferrer">[PDF]</a>
+        </li>
+        <li>
+          <strong>福島 啓太</strong>，梶原 智之，二宮 崇．<br>
+          <span class="title">多言語文符号化器からの言語非依存な文埋め込みの抽出．</span><br>
+          人工知能学会全国大会（第39回），May 2025．
+        </li>
+        <li>
+          宮田 莉奈, 眞鍋 光汰, <strong>福島 啓太</strong>, 花房 健太郎, 高田 一慶, 梶原 智之, 桂井 麻里衣, 二宮 崇．<br>
+          <span class="title">CoCoA:情報科学分野における日本語の学会発表タイトルの分野推定データセット．</span><br>
+          情報処理学会第87回全国大会, March 2025.
+        </li>
+        <li>
+          宮田 莉奈, 眞鍋 光汰, <strong>福島 啓太</strong>, 花房 健太郎, 高田 一慶, 梶原 智之, 桂井 麻里衣, 二宮 崇．<br>
+          <span class="title">情報科学分野における学会発表タイトルの分野推定データセットの構築．</span><br>
+          NLP若手の会第19回シンポジウム（YANS2024）, September 2024．
+        </li>
+      </ol>
     </section>
-    <section class="section split" id="about">
-      <div><p class="section-number">01 / ABOUT</p><h2>Building things at the intersection of <em>language</em> and <em>technology.</em></h2></div>
-      <div class="body-copy"><p>I'm Keita Fukushima, a researcher and developer interested in Natural Language Processing, artificial intelligence, and software engineering.</p><p>This site is a home for my work, experiments, and notes.</p></div>
+
+    <section>
+      <h2>受賞</h2>
+      <ul>
+        <li>第2回AAMT若手翻訳研究会 優秀賞：「多言語文符号化器からの言語非依存な文埋め込みの抽出」</li>
+        <li>NLP若手の会第19回シンポジウム（2024）ハッカソン賞 川柳ハッカソン 審査員特別賞</li>
+      </ul>
     </section>
-    <section class="section" id="interests">
-      <p class="section-number">02 / INTERESTS</p>
-      <div class="cards">
-        <article class="card"><span class="card-index">01</span><h3>Natural Language Processing</h3><p>Understanding and generating human language with computational methods.</p></article>
-        <article class="card"><span class="card-index">02</span><h3>Artificial Intelligence</h3><p>Exploring intelligent systems, machine learning, and practical AI applications.</p></article>
-        <article class="card"><span class="card-index">03</span><h3>Software Development</h3><p>Turning ideas into useful, maintainable tools and products.</p></article>
-      </div>
+
+    <section>
+      <h2>インターンシップ</h2>
+      <ul>
+        <li>LINEヤフー株式会社 研究開発（8/18–10/10）</li>
+      </ul>
     </section>
-    <section class="section" id="projects">
-      <div class="section-heading-row"><p class="section-number">03 / PROJECTS</p><a class="text-link" href="https://github.com/fukushima0709?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a></div>
-      <a class="project" href="https://github.com/fukushima0709" target="_blank" rel="noreferrer"><div><p class="project-type">GITHUB</p><h3>Projects coming soon</h3></div><p class="project-description">Selected research and development projects will be featured here.</p><span>↗</span></a>
+
+    <section>
+      <h2>参加プロジェクト</h2>
+      <ul>
+        <li>第2回AAMT若手翻訳研究会</li>
+        <li><a href="https://weblab.t.u-tokyo.ac.jp/lecture/course-list/large-language-model/" target="_blank" rel="noreferrer">大規模言語モデル応用講座</a> 修了</li>
+      </ul>
     </section>
-    <section class="section contact" id="contact"><p class="section-number">04 / CONTACT</p><h2>Want to connect?</h2><p>Find me on GitHub. More contact details can be added later.</p><a class="button primary" href="https://github.com/fukushima0709" target="_blank" rel="noreferrer">@fukushima0709 ↗</a></section>
+
+    <section>
+      <h2>開発</h2>
+      <ul>
+        <li>NLP若手の会第19回シンポジウム（YANS2024）ハッカソンへの参加</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2026 Keita Fukushima</p>
+    </footer>
   </main>
-  <footer><p>© <span id="year"></span> Keita Fukushima</p><p class="mono">fukushima0709.github.io</p></footer>
-  <script src="script.js"></script>
 </body>
 </html>
